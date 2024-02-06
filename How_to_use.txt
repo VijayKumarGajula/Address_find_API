@@ -6,7 +6,6 @@ How to use:
 2. Get the perticular ID details:
 	http://localhost:8000/api/addresses/<Id number of data>/
 	 example: http://localhost:8000/api/addresses/2/
-	 example: http://localhost:8000/api/addresses/2/
 	-------------------
 3. Update the data: Use PUT button to delete the data(You need to updte the data in content box)
 	http://localhost:8000/api/addresses/<Id number of data>/
