@@ -1,0 +1,29 @@
+How to use:
+
+1. Get the all details:
+	http://localhost:8000/api/addresses/
+	---------------------
+2. Get the perticular ID details:
+	http://localhost:8000/api/addresses/<Id number of data>/
+	 example: http://localhost:8000/api/addresses/2/
+	 example: http://localhost:8000/api/addresses/2/
+	-------------------
+3. Update the data: Use PUT button to delete the data(You need to updte the data in content box)
+	http://localhost:8000/api/addresses/<Id number of data>/
+	 example: http://localhost:8000/api/addresses/2/
+	-------------------
+4. Update the data: Use Delete button to delete the data
+	http://localhost:8000/api/addresses/<Id number of data>/
+	 example: http://localhost:8000/api/addresses/2/
+	 given id data will be delete
+	-------------------
+5. Create new Data: you need to enter all details here and then click on POST
+	http://localhost:8000/api/addresses/create/
+	example: http://localhost:8000/api/addresses/create/
+	Data:
+		{
+			"id": 2,
+			"name": "SUK",
+			"latitude": 88.7128,
+			"longitude": 72.9128
+		}
